@@ -1,9 +1,12 @@
+import Input from "./components/Input";
 import { Container, Content } from "./styles";
 
 const App = () => {
   return (
     <Container>
-      <Content>Olá</Content>
+      <Content>
+        <Input />
+      </Content>
     </Container>
   );
 };
