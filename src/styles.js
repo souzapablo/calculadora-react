@@ -11,8 +11,16 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  background-color: #ffffff;
-  width: 80%;
-  max-width: 640px;
+  background-color: #d6cec1;
+  width: 20%;
   min-height: 350px;
+  padding: 10px;
+  border: 1px solid #313335;
+`;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 `;
